@@ -1,0 +1,95 @@
+html{
+	background-image: url(../images/bats.gif)/* adds the bat background*/
+}
+
+body{ 
+	font-family: sans-serif; /* Changes the whole text font within the body to be sans-serif */
+	width: 800px; 
+	background-color: white; 
+	border: 3px solid black; /* Adds a black border around the webpage */
+	box-shadow: 0 8px 16px 8px; /* Adds a shadow around the black border */
+	margin: auto; /* centers the web page */	
+
+}
+
+/* Header */
+header img{
+	float: left; /* Floats the pumpkin image to the left. */
+	padding-right: 10px;
+}
+header h2 { /* Changes the main title of the websites color, indent, font-style, and adds a black text shadow. */
+	font-size: 230%; 
+	text-indent: 25px;
+	margin: 0;
+	
+}
+header h3 {/* This alters the second header from the top's font size and text indent. */
+	font-size: 125%; 
+	text-indent: 25px;
+	margin: 0;
+}
+header{
+	border-bottom: 2px solid black; /* adds a black line below the header */	
+	background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%); /* changes the color gradient of the header accordingly */ 
+	background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	padding: 10px;
+}
+
+/* Main */
+main h1::first-letter{
+	font-size: 240%; /*This changes the first letter "W" in the third header to be double its size. */
+}
+main h1{
+	font-size: 140%; /* Changed the size of the text. */
+	padding: 0 0 0 0.5em; /* adjusted the spacing for the header */
+}
+main h3{
+	font-size: 110%;
+	padding: 0 0 0 0.5em;
+}
+main h2{
+	padding: 0 0 0 0.5em;
+}
+a:link{
+	color: orange; /*This will change the link colors from the default blue to orange. */
+}
+a:visited{
+	color: orange; /*This will change the link color to orange when already clicked on. */
+}
+a:hover{	
+	color: green; /* When hovering over the links with the mouse the links will be green. */
+}
+li{
+	margin: 0.5em 0; /* Adds spacing to the lists. */
+}
+main p{
+	padding: 0 0 0 0.5em; /* Indents the paragraphs */
+}
+section{
+	float: right; /* floats content to the right */
+	width: 80% /* changes the width of the section so the side bar can fit */
+	
+}
+#side_bar{ /* creates the side bar for the lists */
+	float: left;
+	width: 160px;
+	padding: 0;
+}
+
+/* footer */
+footer p{
+	font-size: 90%; /* Resized the footer and centered it. */
+	text-align: center; 	
+}
+footer {
+	border-top: 2px solid black; /* adds a black line above the footer */
+	background-image: linear-gradient(45deg, black 0%, orange 75%, white 100%); /* adds the color gradient to the footer */
+	background-image: -webkit-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+	background-image: -moz-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+	background-image: -o-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+	padding: 5px;
+	clear: both; /* this will force the footer to be below the floating elements or else the footer will appear right under the header and text */
+}
+

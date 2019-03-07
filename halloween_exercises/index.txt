@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Halloween Store</title> <!-- I added the title -->
+	<link rel="stylesheet" href="styles/normalize.css"> <!-- I linked the normalize.css file BEFORE the main.css -->
+	<link rel="stylesheet" href="styles/main.css"> <!-- I directed the HTML file to the "main.css" file in order to stylize the website with CSS coding. -->
+</head>
+
+<body>	
+	<header>
+		<!-- Added a picture of a pumpkin along with a written description in case the image doesn't load. -->
+		<img src="images/pumpkin.gif" alt="A picture of a pumpkin"/>
+		<!-- I specfically chose each header number accroding to the size they were on the assigment part 1. <h1> is the largest and <h3> is the smallest -->
+		<h2>The Halloween Store</h2> <!-- Added a unique identifier to <h2> because there's more than one so that i can modify the color and font size by refering it within "main.css" -->
+		<h3>For the little Goblin in all of us!</h3>
+	</header>
+	
+	<main>
+		<section>
+			<h1>Welcome to my site. <br>Please come in and stay awhile.</h1>			
+			<!-- This is the first and second paragraph that's written in the assigment. I made sure to add a <br /><br /> command to add an empty line to seperate each paragraph within the same <p></p> command -->
+			<p>I started this web site because Halloween has always been my favourite holiday. But during the last year, I started selling some of my favourite Halloween products, and they've become quite a hit.<br /><br /> 
+			If you click on the Personal link you can browse my favourite Halloween pictures, stories, and films. And if you join my email list I will keep you up-to-date on all things Halloween.</p> 
+			<!-- These contain the unordered lists. I embedded links to the words so that they will be clickable when shown on the webpage. -->
+			<h2>Product of the week</h2>
+			<img src="images/cat1.jpg" alt="deranged cat"><br><!-- added the picture of the cat -->
+			<a href = "slides/products/cat.html">20" Deranged Cat</a>
+			<!-- I made sure to BOLD the "No questions asked!" part with the <b></b> command -->
+			<h3>My guarentee</h3>	
+			<p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund.<b> No questions asked!</b>
+		</section>
+		<nav id="side_bar">
+			<ul>
+				<li><a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Props</a></li>
+				<li><a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Costumes</a></li>
+				<li><a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Special FX</a></li>
+				<li><a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Masks</a></li>
+			</ul>
+		</nav>
+	</main>	
+	<footer>
+	<p>&copy; 2016 Ben Murach</p> <!-- I made a footer and placed it outside the <body>. I found out that if you type "&copy;" it will show up as the copyright symbol on the webpage. -->
+	</footer>
+</body>
+</html>
